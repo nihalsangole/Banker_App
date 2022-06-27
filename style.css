@@ -87,7 +87,6 @@ nav {
   grid-template-rows: auto repeat(3, 15rem) auto;
   gap: 2rem;
 
-  /* NOTE This creates the fade in/out anumation */
   opacity: 0;
   transition: all 1s;
 }
@@ -161,7 +160,6 @@ nav {
   margin-left: auto;
 }
 
-/* SUMMARY */
 .summary {
   grid-row: 5 / 6;
   display: flex;
@@ -200,7 +198,6 @@ nav {
   cursor: pointer;
 }
 
-/* OPERATIONS */
 .operation {
   border-radius: 1rem;
   padding: 3rem 4rem;
@@ -233,14 +230,12 @@ h2 {
   gap: 0.4rem 1rem;
 }
 
-/* Exceptions for interst */
 .form.form--loan {
   grid-template-columns: 2.5fr 1fr 2.5fr;
 }
 .form__label--loan {
   grid-row: 2;
 }
-/* End exceptions */
 
 .form__input {
   width: 100%;
